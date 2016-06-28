@@ -1,0 +1,90 @@
+package com.gome.gsm.mendian.http;
+
+public class ConstantInfo
+{
+  public static String GETCATEGORIES_URL = MENDIAN_QDH_BASE_URL + "newModelsReport/initModelsReport";
+  public static String GETGETCATEGORIES_JKID = "storefeedback3005";
+  public static String GETGETCATEGORIES_MKID = "sapfeedback_3005";
+  public static String GOODSCODE_JKID;
+  public static String GOODSCODE_MKID;
+  public static String GOODSCODE_URL;
+  public static String MENDIAN_ADD_FEED_JKID;
+  public static String MENDIAN_ADD_FEED_MKID;
+  public static String MENDIAN_ADD_FEED_URL;
+  public static String MENDIAN_FEEDBACKS_JKID;
+  public static String MENDIAN_FEEDBACKS_MKID;
+  public static String MENDIAN_FEEDBACKS_URL;
+  public static String MENDIAN_GET_EJPL_JKID;
+  public static String MENDIAN_GET_EJPL_MKID;
+  public static String MENDIAN_GET_EJPL_URL;
+  public static String MENDIAN_GET_PL_JKID;
+  public static String MENDIAN_GET_PL_MKID;
+  public static String MENDIAN_GET_PL_URL;
+  public static String MENDIAN_GET_PP_JKID;
+  public static String MENDIAN_GET_PP_MKID;
+  public static String MENDIAN_GET_PP_URL;
+  public static String MENDIAN_GET_QHLX_JKID;
+  public static String MENDIAN_GET_QHLX_MKID;
+  public static String MENDIAN_GET_QHLX_URL;
+  public static String MENDIAN_GET_SP_JKID;
+  public static String MENDIAN_GET_SP_MKID;
+  public static String MENDIAN_GET_SP_URL;
+  public static String MENDIAN_PUBLIC_PARAM;
+  public static String MENDIAN_QDH_BASE_URL = "http://g.corp.gome.com.cn/storefeedback/m/";
+  public static String MENDIAN_REPLY_JKID;
+  public static String MENDIAN_REPLY_MKID;
+  public static String MENDIAN_REPLY_URL;
+  public static String MENDIAN_XSRW_BASE_URL = "http://g.corp.gome.com.cn/saletarget/m//";
+  public static String MENDIAN_XSRW_JKID;
+  public static String MENDIAN_XSRW_MKID;
+  public static String MENDIAN_XSRW_URL;
+  public static String NEWPROCATEGORY_URL;
+  public static String NEWPROCATEGROY_JKID;
+  public static String NEWPROCATTEGORY_MKID;
+  public static String NEWPROMODEL_JKID;
+  public static String NEWPROMODEL_URL;
+  public static String NEWPROMODLE_MKID;
+  
+  static
+  {
+    MENDIAN_QDH_BASE_URL = "http://10.122.252.59/m/";
+    MENDIAN_XSRW_BASE_URL = "http://10.122.252.59/m/";
+    MENDIAN_PUBLIC_PARAM = "storefeedback";
+    MENDIAN_GET_PL_URL = MENDIAN_QDH_BASE_URL + "goodsApp/findBaseCategorys";
+    MENDIAN_GET_PL_JKID = "storefeedback101";
+    MENDIAN_GET_PL_MKID = "goods_001";
+    MENDIAN_GET_EJPL_URL = MENDIAN_QDH_BASE_URL + "goodsApp/findSubCategorys";
+    MENDIAN_GET_EJPL_JKID = "storefeedback104";
+    MENDIAN_GET_EJPL_MKID = "goods_004";
+    MENDIAN_GET_PP_URL = MENDIAN_QDH_BASE_URL + "goodsApp/findGoodsBrands";
+    MENDIAN_GET_PP_JKID = "storefeedback102";
+    MENDIAN_GET_PP_MKID = "goods_002";
+    MENDIAN_GET_SP_URL = MENDIAN_QDH_BASE_URL + "goodsApp/findGoodses";
+    MENDIAN_GET_SP_JKID = "storefeedback103";
+    MENDIAN_GET_SP_MKID = "goods_003";
+    MENDIAN_GET_QHLX_URL = MENDIAN_QDH_BASE_URL + "feedBackApp/findLackCategory";
+    MENDIAN_GET_QHLX_JKID = "storefeedback201";
+    MENDIAN_GET_QHLX_MKID = "feedback_001";
+    MENDIAN_ADD_FEED_URL = MENDIAN_QDH_BASE_URL + "feedBackApp/insert";
+    MENDIAN_ADD_FEED_JKID = "storefeedback204";
+    MENDIAN_ADD_FEED_MKID = "feedback_004";
+    MENDIAN_FEEDBACKS_URL = MENDIAN_QDH_BASE_URL + "feedBackApp/findFeedBacks";
+    MENDIAN_FEEDBACKS_JKID = "storefeedback202";
+    MENDIAN_FEEDBACKS_MKID = "feedback_002";
+    MENDIAN_XSRW_URL = MENDIAN_XSRW_BASE_URL + "saleSplitRecordApp/listPagePersonRecord";
+    MENDIAN_XSRW_JKID = "sale006";
+    MENDIAN_XSRW_MKID = "1006";
+    MENDIAN_REPLY_URL = MENDIAN_QDH_BASE_URL + "feedBackRecordApp/findListByPK";
+    MENDIAN_REPLY_JKID = "storefeedback301";
+    MENDIAN_REPLY_MKID = "record_001";
+    GOODSCODE_URL = MENDIAN_QDH_BASE_URL + "goodsApp/goodsInfo";
+    GOODSCODE_JKID = "storefeedback105";
+    GOODSCODE_MKID = "goods_005";
+    NEWPROCATEGORY_URL = MENDIAN_QDH_BASE_URL + "newCategoryReport/subNewCategoryReport/";
+    NEWPROCATEGROY_JKID = "storefeedback3002";
+    NEWPROCATTEGORY_MKID = "sapfeedback_3002";
+    NEWPROMODEL_URL = MENDIAN_QDH_BASE_URL + "newModelsReport/subModelsReport";
+    NEWPROMODEL_JKID = "storefeedback3005";
+    NEWPROMODLE_MKID = "sapfeedback_3005";
+  }
+}
