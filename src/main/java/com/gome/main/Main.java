@@ -30,6 +30,8 @@ public class Main {
 		}
 		
 		System.out.println("联系方式:"+tel);
+		System.out.println("联系方式:"+tel);
+		System.out.println("联系方式:"+tel);
 		
 	}
 
