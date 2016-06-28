@@ -29,7 +29,7 @@ public class Main {
 			tel+=arr[i];
 		}
 		
-		System.out.println("联系方式"+tel);
+		System.out.println("联系方式:"+tel);
 		
 	}
 
